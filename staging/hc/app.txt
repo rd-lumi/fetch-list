@@ -1,0 +1,1 @@
+https://node_1.staging.lumi.biz:30001
