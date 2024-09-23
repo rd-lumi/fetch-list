@@ -1,2 +1,3 @@
 https://relay2.lumi.biz:30001
 https://relay3.lumi.biz:30001
+https://relay4.lumi.biz:30001
