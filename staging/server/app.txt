@@ -1,0 +1,1 @@
+http://node_1.staging.lumi.biz:33334/api/homes
