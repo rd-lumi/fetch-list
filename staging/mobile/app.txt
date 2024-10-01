@@ -1,7 +1,12 @@
 [
     {
-        "domain": "node_1.staging.lumi.biz",
+        "domain": "node1.staging.lumi.biz",
         "port": 8301,
         "ping": 33334
-    }
+    },
+    {
+        "domain": "node2.staging.lumi.biz",
+        "port": 8301,
+        "ping": 33334
+    }  
 ]
