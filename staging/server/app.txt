@@ -1,1 +1,2 @@
-http://node_1.staging.lumi.biz:33334/api/homes
+http://node1.staging.lumi.biz:33334/api/homes
+http://node2.staging.lumi.biz:33334/api/homes
