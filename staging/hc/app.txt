@@ -1,1 +1,2 @@
-https://node_1.staging.lumi.biz:30001
+https://node1.staging.lumi.biz:30001
+https://node2.staging.lumi.biz:30001
