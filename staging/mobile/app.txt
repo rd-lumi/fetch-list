@@ -8,5 +8,10 @@
         "domain": "node2.staging.lumi.biz",
         "port": 8301,
         "ping": 33334
-    }  
+    },
+    {
+        "domain": "node3.staging.lumi.biz",
+        "port": 8301,
+        "ping": 33334
+    }
 ]
