@@ -9,8 +9,8 @@ jobs:
   sync:
     runs-on: ['self-hosted', 'relay', 'infra']
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Sync production to local minio
         uses: marverlous811/minio-upload@v1.2.0
@@ -19,7 +19,7 @@ jobs:
           bucket: ${{ vars.LOCAL_MINIO_BUCKET }}
           access_key: ${{ secrets.LOCAL_MINIO_ACCESS_KEY }}
           secret_key: ${{ secrets.LOCAL_MINIO_SECRET_KEY }}
-          remote_path: '/production'
+          remote_path: '/'
           local_path: './production'
           recursive: true
 
@@ -30,7 +30,7 @@ jobs:
           bucket: ${{ vars.LOCAL_MINIO_BUCKET }}
           access_key: ${{ secrets.LOCAL_MINIO_ACCESS_KEY }}
           secret_key: ${{ secrets.LOCAL_MINIO_SECRET_KEY }}
-          remote_path: '/staging'
+          remote_path: '/'
           local_path: './staging'
           recursive: true
 
@@ -41,7 +41,7 @@ jobs:
           bucket: ${{ vars.R2_BUCKET }}
           access_key: ${{ secrets.R2_ACCESS_KEY }}
           secret_key: ${{ secrets.R2_SECRET_KEY }}
-          remote_path: '/production'
+          remote_path: '/'
           local_path: './production'
           recursive: true
           extra_args: --path off
@@ -54,7 +54,7 @@ jobs:
           bucket: ${{ vars.R2_BUCKET }}
           access_key: ${{ secrets.R2_ACCESS_KEY }}
           secret_key: ${{ secrets.R2_SECRET_KEY }}
-          remote_path: '/staging'
+          remote_path: '/'
           local_path: './staging'
           recursive: true
           extra_args: --path off
