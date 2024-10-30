@@ -1,0 +1,23 @@
+[
+    {
+        "domain": "relay2.lumi.biz",
+        "tls": 8301,
+        "api": 33334,
+        "rtps": 554,
+        "connector": 30001
+    },
+    {
+        "domain": "relay3.lumi.biz",
+        "tls": 8301,
+        "api": 33334,
+        "rtps": 554,
+        "connector": 30001
+    },
+    {
+        "domain": "relay4.lumi.biz",
+        "tls": 8301,
+        "api": 33334,
+        "rtps": 554,
+        "connector": 30001
+    }
+]
