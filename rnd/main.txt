@@ -3,14 +3,14 @@
         "domain": "node1.rnd.lumi.biz",
         "tls": 8301,
         "api": 33334,
-        "rtps": 554,
+        "rtsp": 554,
         "connector": 30001
     },
     {
         "domain": "node2.rnd.lumi.biz",
         "tls": 8301,
         "api": 33334,
-        "rtps": 554,
+        "rtsp": 554,
         "connector": 30001
     }
 ]
