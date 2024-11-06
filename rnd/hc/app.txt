@@ -1,0 +1,2 @@
+https://node1.rnd.lumi.biz:30001
+https://node2.rnd.lumi.biz:30001
