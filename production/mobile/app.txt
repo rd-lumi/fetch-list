@@ -1,10 +1,5 @@
 [
     {
-        "domain": "relay2.lumi.biz",
-        "port": 8301,
-        "ping": 33334
-    },
-    {
         "domain": "relay3.lumi.biz",
         "port": 8301,
         "ping": 33334
