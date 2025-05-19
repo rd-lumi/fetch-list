@@ -1,3 +1,26 @@
-http://node1.staging.lumi.biz:33334/api/homes
-http://node2.staging.lumi.biz:33334/api/homes
-http://node3.staging.lumi.biz:33334/api/homes
+[
+    {
+        "domain": "node1.staging.lumi.biz",
+        "tls": 8301,
+        "api": 33334,
+        "rtsp": 554,
+        "connector": 30001,
+        "http": 8001
+    },
+    {
+        "domain": "node2.staging.lumi.biz",
+        "tls": 8301,
+        "api": 33334,
+        "rtsp": 554,
+        "connector": 30001,
+        "http": 8001
+    },
+    {
+        "domain": "node3.staging.lumi.biz",
+        "tls": 8301,
+        "api": 33334,
+        "rtsp": 554,
+        "connector": 30001,
+        "http": 8001
+    }
+]
