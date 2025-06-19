@@ -22,5 +22,13 @@
         "rtsp": 554,
         "connector": 30001,
         "http": 8001
+    },
+    {
+        "domain": "relay6.lumi.biz",
+        "tls": 8301,
+        "api": 33334,
+        "rtsp": 554,
+        "connector": 30001,
+        "http": 8001
     }
 ]
