@@ -1,6 +1,6 @@
 [
     {
-        "domain": "node1.staging.lumi.biz",
+        "domain": "relay3.lumi.biz",
         "tls": 8301,
         "api": 33334,
         "rtsp": 554,
@@ -8,7 +8,7 @@
         "http": 8001
     },
     {
-        "domain": "node2.staging.lumi.biz",
+        "domain": "relay4.lumi.biz",
         "tls": 8301,
         "api": 33334,
         "rtsp": 554,
@@ -16,7 +16,7 @@
         "http": 8001
     },
     {
-        "domain": "node3.staging.lumi.biz",
+        "domain": "relay5.lumi.biz",
         "tls": 8301,
         "api": 33334,
         "rtsp": 554,

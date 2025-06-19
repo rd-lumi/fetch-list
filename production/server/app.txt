@@ -1,3 +1,0 @@
-http://relay3.lumi.biz:33334/api/homes
-http://relay4.lumi.biz:33334/api/homes
-http://relay5.lumi.biz:33334/api/homes
