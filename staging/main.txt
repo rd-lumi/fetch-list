@@ -5,6 +5,7 @@
         "api": 33334,
         "rtsp": 554,
         "connector": 30001,
-        "http": 8001
+        "http": 8001,
+        "udp_port": 2280
     }
 ]
