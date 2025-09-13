@@ -7,14 +7,5 @@
         "connector": 30001,
         "http": 8001,
         "udp_port": 2280
-    },
-    {
-        "domain": "node3.staging.lumi.biz",
-        "tls": 8301,
-        "api": 33334,
-        "rtsp": 554,
-        "connector": 30001,
-        "http": 8001,
-        "udp_port": 2280
     }
 ]
