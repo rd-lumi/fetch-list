@@ -17,8 +17,8 @@
     },
     {
         "domain": "relay5.lumi.biz",
-        "tls": 8443,
-        "api": 6443,
+        "tls": 8301,
+        "api": 33334,
         "rtsp": 554,
         "connector": 30001,
         "http": 8001
