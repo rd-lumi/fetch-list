@@ -5,7 +5,9 @@
         "api": 33334,
         "rtsp": 554,
         "connector": 30001,
-        "http": 8001
+        "http": 8001,
+        "udp_port": 2280,
+        "ws_tunnel": 4420
     },
     {
         "domain": "relay4.lumi.biz",
@@ -13,7 +15,9 @@
         "api": 33334,
         "rtsp": 554,
         "connector": 30001,
-        "http": 8001
+        "http": 8001,
+        "udp_port": 2280,
+        "ws_tunnel": 4420
     },
     {
         "domain": "relay5.lumi.biz",
@@ -21,7 +25,9 @@
         "api": 33334,
         "rtsp": 554,
         "connector": 30001,
-        "http": 8001
+        "http": 8001,
+        "udp_port": 2280,
+        "ws_tunnel": 4420
     },
     {
         "domain": "relay6.lumi.biz",
